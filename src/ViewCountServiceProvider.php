@@ -10,8 +10,4 @@ class ViewCountServiceProvider extends ServiceProvider
     {
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
     }
-
-    public function register()
-    {
-    }
 }

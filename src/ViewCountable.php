@@ -25,4 +25,9 @@ trait ViewCountable
             \Session::put($key, 1);
         }
     }
+
+    public function showViewCount()
+    {
+        return $this->views()->first()->count;
+    }
 }
