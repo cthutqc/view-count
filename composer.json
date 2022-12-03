@@ -1,0 +1,15 @@
+{
+    "name": "cthutqc/view-count",
+    "description": "View counter for laravel models",
+    "minimum-stability": "stable",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey",
+            "email": "toserg81@mail.ru"
+        }
+    ],
+    "require": {
+    }
+}
