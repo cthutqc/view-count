@@ -11,5 +11,17 @@
         }
     ],
     "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Cthutqc\\ViewCount\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cthutqc\\ViewCount\\ViewCountServiceProvider"
+            ]
+        }
     }
 }
